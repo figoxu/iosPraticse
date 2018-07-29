@@ -106,6 +106,11 @@ class ViewController: UIViewController {
             print("操作符:\(operatorFlag)")
             print("第二操作数:\(secondOperand)")
             print("结果:\(result)")
+            firstOperand = result
+            secondOperand = 0.0
+            decimalPointFlag = false
+            isSecond = false
+            operatorFlag = ""
         }
     }
     
